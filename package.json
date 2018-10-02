@@ -1,0 +1,17 @@
+{
+  "name": "Block-LP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-sass": "^4.9.3"
+  }
+}
